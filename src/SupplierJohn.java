@@ -1,5 +1,4 @@
 public class SupplierJohn extends Thread{
-
     @Override
     public void run() {
         Scholarship scholarshipJohn = new Scholarship();

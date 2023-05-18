@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d7cd0aa-5410-4178-8bc4-e128bc358f2d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Student_Scholarship.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Scholarship.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierBob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierJohn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierStive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SupplierTania.java" afterDir="false" />
-    </list>
+    <list default="true" id="2d7cd0aa-5410-4178-8bc4-e128bc358f2d" name="Changes" comment="There is class Student, which creates Object Student. There is class Scholarship, which has four constants and method getScholarship and this method return information about size scholarship all students. There is class StudentException which creates own exception. This exception we use when  create Student." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +18,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,12 +36,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -75,6 +65,21 @@
       <option name="presentableId" value="Default" />
       <updated>1684393751360</updated>
     </task>
+    <task id="LOCAL-00001" summary="There is class Student, which creates Object Student. There is class Scholarship, which has four constants and method getScholarship and this method return information about size scholarship all students. There is class StudentException which creates own exception. This exception we use when  create Student.">
+      <created>1684422425808</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1684422425808</updated>
+    </task>
+    <task id="LOCAL-00002" summary="There is class Student, which creates Object Student. There is class Scholarship, which has four constants and method getScholarship and this method return information about size scholarship all students. There is class StudentException which creates own exception. This exception we use when  create Student.">
+      <created>1684422560887</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684422560887</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,5 +92,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="There is class Student, which creates Object Student. There is class Scholarship, which has four constants and method getScholarship and this method return information about size scholarship all students. There is class StudentException which creates own exception. This exception we use when  create Student." />
+    <option name="LAST_COMMIT_MESSAGE" value="There is class Student, which creates Object Student. There is class Scholarship, which has four constants and method getScholarship and this method return information about size scholarship all students. There is class StudentException which creates own exception. This exception we use when  create Student." />
   </component>
 </project>

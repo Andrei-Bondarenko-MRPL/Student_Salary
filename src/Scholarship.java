@@ -5,7 +5,6 @@ public class Scholarship {
     private static final double GRADE_FOR_BEST_SCHOLARSHIP = 10;
     private static final double GRADE_FOR_GOOD_SCHOLARSHIP = 8;
 
-
     public String getScholarship(Student student) {
         if (student.getGrade() == GRADE_FOR_BEST_SCHOLARSHIP) {
             return student + " scholarship is " + BEST_SCHOLARSHIP;

@@ -6,10 +6,10 @@ public class Main {
          SupplierJohn john = new SupplierJohn();
          john.start();
 
+        SupplierTania tania = new SupplierTania();
+        tania.start();
+
          SupplierStive stive = new SupplierStive();
          stive.start();
-
-         SupplierTania tania = new SupplierTania();
-         tania.start();
     }
 }
