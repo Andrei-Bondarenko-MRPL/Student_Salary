@@ -13,7 +13,7 @@ public class Scholarship {
                 && student.getGrade() < GRADE_FOR_BEST_SCHOLARSHIP) {
             return student + " scholarship is " + GOOD_SCHOLARSHIP;
         } else {
-            return student + " scholarship is 0";
+           return student + " scholarship is 0";
         }
     }
 }

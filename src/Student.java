@@ -4,9 +4,21 @@ public class Student {
     private double grade;
 
     public Student(String name, String lastName, double grade) {
-        this.name = name;
-        this.lastName = lastName;
-        this.grade = grade;
+        if (name == null) {
+            throw new StudentException("Student`s name can't be null, create student with name and lastname");
+        } else {
+            this.name = name;
+        }
+        if (lastName == null) {
+            throw new StudentException("Student`s lastname can't be null, create student with name and lastname");
+        } else {
+            this.lastName = lastName;
+        }
+        if (grade < 0 || grade > 10) {
+            throw new StudentException("Grade should be more than 0 and less than 10");
+        } else {
+            this.grade = grade;
+        }
     }
 
 
@@ -15,9 +27,6 @@ public class Student {
     }
 
     public void setName(String name) {
-        if (name == null) {
-            throw new StudentException("Student`s name can't be null, create student with name and lastname");
-        }
         this.name = name;
     }
 
@@ -26,9 +35,6 @@ public class Student {
     }
 
     public void setLastName(String lastName) {
-        if (name == null) {
-            throw new StudentException("Student`s lastname can't be null, create student with name and lastname");
-        }
         this.lastName = lastName;
     }
 
@@ -37,18 +43,15 @@ public class Student {
     }
 
     public void setGrade(double grade) {
-        if (grade < 0 && grade > 10) {
-            throw new StudentException("Grade should be more than 0 and less than 10");
-        }
         this.grade = grade;
     }
 
     @Override
     public String toString() {
         return "Student{" +
-                "name='" + name + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", grade=" + grade +
+                "name='" + getName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", grade=" + getGrade() +
                 '}';
     }
 }
