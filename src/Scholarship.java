@@ -16,18 +16,6 @@ public class Scholarship {
             return student + " scholarship is 0";
         }
     }
-//    public List<String> getScholarship(List<Student> studentList) {
-//        List<String> student = new ArrayList<>();
-//        for (int i = 0; i < studentList.size(); i++) {
-//            if (studentList.get(i).getGrade() == GRADE_FOR_BEST_SCHOLARSHIP) {
-//                student.add(studentList.get(i) + " " + "scholarship is " + BEST_SCHOLARSHIP) ;
-//            } else if (studentList.get(i).getGrade() >= GRADE_FOR_GOOD_SCHOLARSHIP
-//                    && studentList.get(i).getGrade() < GRADE_FOR_BEST_SCHOLARSHIP) {
-//                student.add(studentList.get(i) + " " + "scholarship is " + GOOD_SCHOLARSHIP);
-//            } else {
-//                student.add(studentList.get(i) + " scholarship is 0");
-//            }
-//        }
-//        return student;
-
 }
+
+
