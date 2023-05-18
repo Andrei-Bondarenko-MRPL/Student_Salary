@@ -37,8 +37,8 @@ public class Student {
     }
 
     public void setGrade(double grade) {
-        if (grade < 0 && grade > 10) {
-            throw new StudentException("Grade should be more than 0 and less than 10");
+        if (grade < 0 || grade > 10) {
+            throw new StudentException("Student`s grade should be more than 0 and less than 10");
         }
         this.grade = grade;
     }
